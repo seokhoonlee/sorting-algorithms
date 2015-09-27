@@ -14,6 +14,7 @@ public class SortingAlgorithms {
 		switch (type) {
 			case BUBBLE: bubbleSort(arrayA); bubbleSort(arrayB); bubbleSort(arrayC); break;
 			case INSERT: insertSort(arrayA); insertSort(arrayB); insertSort(arrayC); break;
+			case SELECT: selectSort(arrayA); selectSort(arrayB); selectSort(arrayC); break;
 			default: break;
 		}
 	}
@@ -46,11 +47,21 @@ public class SortingAlgorithms {
 		}
 	}
 	
-//  private void swap(int[] inputArray, int i, int j) {
-//      int temp = inputArray[i];
-//      inputArray[i] = inputArray[j];
-//      inputArray[j] = temp;
-//  }
+	public void selectSort(int[] inputArray) {
+		for (int i = 0; i < ARRAY_SIZE - 1; i++) {
+			int tempIndex = i;
+			
+			for (int j = i + 1; j < ARRAY_SIZE; j++) {
+				if (inputArray[j] < inputArray[tempIndex]) {
+					tempIndex = j;
+				}
+			}
+			
+			int temp = inputArray[tempIndex];
+			inputArray[tempIndex] = inputArray[i];
+			inputArray[i] = temp;
+		}
+	}
 	
 	public void print() {
 		printArray(arrayA);
@@ -79,6 +90,10 @@ public class SortingAlgorithms {
 		insertArray.sort("insert");
 		insertArray.print();
 		
-		
+		SortingAlgorithms selectArray = new SortingAlgorithms();
+		System.out.print("Select\n");
+		selectArray.print();
+		selectArray.sort("select");
+		selectArray.print();
 	}
 }
