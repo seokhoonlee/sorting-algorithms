@@ -5,19 +5,19 @@ Below are some of the well known sorting algorithms and their Java implementatio
 ## List of sorting algorithms
 
 ### Bubble Sort
-* [Bubble Sort]( )
+* [Bubble Sort](https://github.com/seokhoonlee/sorting-algorithms/blob/master/SortingAlgorithms.java)
 ```
 Best: O(n) Worst: O(n^2) Average: O(n^2)
 ```
 
 ### Insertion Sort
-* [Insertion Sort]( )
+* [Insertion Sort](https://github.com/seokhoonlee/sorting-algorithms/blob/master/SortingAlgorithms.java)
 ```
 Best: O(n) Worst: O(n^2) Average: O(n^2)
 ```
 
 ### Selection Sort
-* [Selection Sort]( )
+* [Selection Sort](https://github.com/seokhoonlee/sorting-algorithms/blob/master/SortingAlgorithms.java)
 ```
 Best: O(n^2) Worst: O(n^2) Average: O(n^2)
 ```
