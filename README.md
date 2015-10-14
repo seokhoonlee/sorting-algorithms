@@ -24,11 +24,6 @@ Best: O(n^2) Worst: O(n^2) Average: O(n^2)
 Best: O(n+k) Worst: O(n^2) Average: O(n+k)
 ```
 
-* [Radix Sort]( )
-```
-Best: O(n*k) Worst: O(n*k) Average: O(n*k)
-```
-
 * [Merge Sort]( )
 ```
 Best: O(nlog(n)) Worst: O(nlog(n)) Average: O(nlog(n))
