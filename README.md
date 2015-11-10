@@ -24,17 +24,17 @@ Best: O(n^2) Worst: O(n^2) Average: O(n^2)
 Best: O(n+k) Worst: O(n^2) Average: O(n+k)
 ```
 
-* [Merge Sort]( )
+* [Merge Sort]( ) (Not Implemented Yet)
 ```
 Best: O(nlog(n)) Worst: O(nlog(n)) Average: O(nlog(n))
 ```
 
-* [Quick Sort]( )
+* [Quick Sort]( ) (Not Implemented Yet)
 ```
 Best: O(nlog(n)) Worst: O(n^2) Average: O(nlog(n))
 ```
 
-* [Heap Sort]( )
+* [Heap Sort]( ) (Not Implemented Yet)
 ```
 Best: O(nlog(n)) Worst: O(nlog(n)) Average: O(nlog(n))
 ```
